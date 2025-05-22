@@ -1,0 +1,3320 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "io.audiosmaxs.bassboostermusic.apk"
+  ],
+  "treeExpansions": [
+    [
+      "Source code",
+      "io.audiosmaxs.bassboostermusic.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "androidx.lifecycle.LiveData"
+        },
+        "comment": "I\u0027m pretty sure this is basically C#s \u0027ObservableCollection\u003cT\u003e\u0027, but for a Java view.\n\nAfter some research, it\u0027s really just the Android version of a setter event. C# does that\nvia properties and the CommunityToolkit for MVVM.",
+        "style": "LINE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.equalizer.lite.App",
+          "shortId": "onCreate()V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 39
+        },
+        "comment": "I\u0027m not going to deobfuscate this as it\u0027s only for errors.",
+        "style": "LINE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.equalizer.lite.App",
+          "shortId": "onCreate()V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 250
+        },
+        "comment": "\"BandNumValue\" might be the original devs attempt at saying \"Use10Bands\".\nWhich also means this is likely that experimental \"Empower\" feature that was never finished.",
+        "style": "BLOCK"
+      }
+    ],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ab.j"
+        },
+        "newName": "FragmentManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "android.media.audiofx.DynamicsProcessing$Eq"
+        },
+        "newName": "Eq"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "androidx.appcompat.widget.c1"
+        },
+        "newName": "ModifiedCompoundButton"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "androidx.lifecycle.s"
+        },
+        "newName": "EqLiveData"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.equalizer.lite.App$a"
+        },
+        "newName": "KotlinStaticAccessors"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.equalizer.lite.App$a$a"
+        },
+        "newName": "doNothingOnError"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.equalizer.lite.App$a$b"
+        },
+        "newName": "verifyProUserStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.equalizer.lite.App$c"
+        },
+        "newName": "UNUSED_initEqVmAgain"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.equalizer.lite.component.profile.database.AppDatabase$a"
+        },
+        "newName": "DatabaseProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.revenuecat.purchases.api.R"
+        },
+        "newName": "ResourceIds"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "d5.a"
+        },
+        "newName": "LIKELY_AdServices"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "da.f"
+        },
+        "newName": "CustomerInfoCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "da.g"
+        },
+        "newName": "serviceInitFailedException"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "da.h"
+        },
+        "newName": "KotlinBind_Unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "e.t"
+        },
+        "newName": "FirebaseCrashlytics"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "f1.a"
+        },
+        "newName": "UserPrefs"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "f1.a$a"
+        },
+        "newName": "PreferenceEditor"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "f1.b"
+        },
+        "newName": "MasterKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "f1.b$a"
+        },
+        "newName": "SecureKeyManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "f3.a"
+        },
+        "newName": "EqualizerViewModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "f3.b"
+        },
+        "newName": "PreferenceManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "g1.e"
+        },
+        "newName": "ISqliteStatement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "h1.a"
+        },
+        "newName": "sqlWrapper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "h1.a$a"
+        },
+        "newName": "sqlWrapper_CursorFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "h1.e"
+        },
+        "newName": "sqliteStatement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "k3.d"
+        },
+        "newName": "IDb"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "l3.a"
+        },
+        "newName": "CustomPreset"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "m3.a"
+        },
+        "newName": "AppDatabaseProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "m3.a$b"
+        },
+        "newName": "setNew"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "na.a"
+        },
+        "newName": "InvokableAction"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "na.l"
+        },
+        "newName": "IInvocable"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "o2.g"
+        },
+        "newName": "PurchaceErrorCallback_2"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "o2.h"
+        },
+        "newName": "CustomerInfoFoundCallback_2"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "o2.i"
+        },
+        "newName": "PurchaceErrorCallback_1"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "o2.j"
+        },
+        "newName": "CustomerInfoFoundCallback_1"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "o5.x"
+        },
+        "newName": "TaskObj"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "oa.j"
+        },
+        "newName": "ThrowHelpersAndUtilities"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "oa.k"
+        },
+        "newName": "Abstract_Lambda_C2561k"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "oa.o"
+        },
+        "newName": "SubscriptionStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "p3.c"
+        },
+        "newName": "DynamicSoundFX"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "p3.e"
+        },
+        "newName": "LIKELY_NewDynamicSoundFX"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "p3.f"
+        },
+        "newName": "BandWrapper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "p3.h"
+        },
+        "newName": "EqualizerInstanceContainer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "p3.l"
+        },
+        "newName": "LoudnessEnhancer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "q3.o"
+        },
+        "newName": "SliderControlModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "r.g"
+        },
+        "newName": "WastefulChecks"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "r2.a"
+        },
+        "newName": "HeadPhones"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "v3.f0"
+        },
+        "newName": "PresetManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "v8.c"
+        },
+        "newName": "ITaskAwaitable"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "w6.s0"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "androidx.fragment.app.t",
+          "shortId": "C:Z"
+        },
+        "newName": "mResumed"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "androidx.fragment.app.t",
+          "shortId": "D:Z"
+        },
+        "newName": "mStopped"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.App",
+          "shortId": "l:Lf3/a;"
+        },
+        "newName": "eqViewModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.App",
+          "shortId": "m:Lcom/equalizer/lite/App;"
+        },
+        "newName": "StaticInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.App$a$a",
+          "shortId": "l:Lcom/equalizer/lite/App$a$a;"
+        },
+        "newName": "s_doNothingOnError_cache"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.App$a$b",
+          "shortId": "l:Lcom/equalizer/lite/App$a$b;"
+        },
+        "newName": "s_verifyProUserStatus_cache"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.component.aeq.profile.database.AeqDatabase",
+          "shortId": "l:Lcom/equalizer/lite/component/aeq/profile/database/AeqDatabase;"
+        },
+        "newName": "aeqDatabaseHandle"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.component.profile.database.AppDatabase",
+          "shortId": "l:Lcom/equalizer/lite/component/profile/database/AppDatabase$a;"
+        },
+        "newName": "dbProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.component.profile.database.AppDatabase",
+          "shortId": "m:Lcom/equalizer/lite/component/profile/database/AppDatabase;"
+        },
+        "newName": "appDatabaseHandle"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.receiver.BootReceiver",
+          "shortId": "a:Lf3/a;"
+        },
+        "newName": "eqViewModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.service.ForegroundService",
+          "shortId": "l:Ljava/lang/String;"
+        },
+        "newName": "channelName"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.service.ForegroundService",
+          "shortId": "m:Lf3/a;"
+        },
+        "newName": "eqVm"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.service.ForegroundService",
+          "shortId": "n:Landroid/widget/RemoteViews;"
+        },
+        "newName": "remoteViews"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.service.ForegroundService",
+          "shortId": "o:Landroid/app/PendingIntent;"
+        },
+        "newName": "pendingIntent"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.service.ForegroundService",
+          "shortId": "p:Landroid/content/Intent;"
+        },
+        "newName": "intent"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.ui.activity.MainActivity",
+          "shortId": "Y:Lf3/a;"
+        },
+        "newName": "eqVm"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.equalizer.lite.ui.activity.Splash",
+          "shortId": "H:Lf3/a;"
+        },
+        "newName": "viewmodelnstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "d5.a",
+          "shortId": "C:Le/t;"
+        },
+        "newName": "firebaseCrash_completingAlready"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "d5.a",
+          "shortId": "D:Le/t;"
+        },
+        "newName": "firebaseCrash_completingWaitingChildren"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "d5.a",
+          "shortId": "E:Le/t;"
+        },
+        "newName": "firebaseCrash_completingRetry"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "d5.a",
+          "shortId": "F:Le/t;"
+        },
+        "newName": "firebaseCrash_tooLatetoCancel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "d5.a",
+          "shortId": "G:Le/t;"
+        },
+        "newName": "firebaseCrash_sealed"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "d5.a",
+          "shortId": "p:Lf3/a;"
+        },
+        "newName": "eqViewModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "da.f",
+          "shortId": "m:Ljava/lang/Object;"
+        },
+        "newName": "lazyValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "da.h",
+          "shortId": "a:Lda/h;"
+        },
+        "newName": "Unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "e.t",
+          "shortId": "l:I"
+        },
+        "newName": "givenConfigNum"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "e3.a",
+          "shortId": "d:Lda/f;"
+        },
+        "newName": "customerInfoCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "e3.a",
+          "shortId": "e:Le3/a;"
+        },
+        "newName": "StaticInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "e3.a$a",
+          "shortId": "l:Le3/a$a;"
+        },
+        "newName": "StaticInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f1.a",
+          "shortId": "a:Landroid/content/SharedPreferences;"
+        },
+        "newName": "sharedPrefs"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f1.a",
+          "shortId": "b:Ljava/util/concurrent/CopyOnWriteArrayList;"
+        },
+        "newName": "CopyWriteArrayList"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f1.a$a",
+          "shortId": "a:Lf1/a;"
+        },
+        "newName": "UserPrefsInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f1.a$a",
+          "shortId": "b:Landroid/content/SharedPreferences$Editor;"
+        },
+        "newName": "PrefsEditor"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f1.a$a",
+          "shortId": "c:Ljava/util/concurrent/CopyOnWriteArrayList;"
+        },
+        "newName": "CopyWriteArrayList"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f1.a$a",
+          "shortId": "d:Ljava/util/concurrent/atomic/AtomicBoolean;"
+        },
+        "newName": "atomicBool"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f1.b",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "keyAlias"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f1.b$a",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "_androidx_secutiry_master_key"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f1.b$a",
+          "shortId": "b:Landroid/security/keystore/KeyGenParameterSpec;"
+        },
+        "newName": "keygenParam"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f1.b$a",
+          "shortId": "c:I"
+        },
+        "newName": "buildCalledBefore_setKeyGenParameterSpec"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "A:Ljava/lang/Float;"
+        },
+        "newName": "channelRightValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "B:Z"
+        },
+        "newName": "chanelSwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "C:Z"
+        },
+        "newName": "bbSwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "D:Z"
+        },
+        "newName": "virSwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "E:Z"
+        },
+        "newName": "loudSwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "F:Z"
+        },
+        "newName": "eqSwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "G:Z"
+        },
+        "newName": "isCustomSelectedValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "H:Z"
+        },
+        "newName": "vibrateValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "I:Z"
+        },
+        "newName": "updateApp"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "J:Z"
+        },
+        "newName": "notiffPopupValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "K:Z"
+        },
+        "newName": "darkThemeValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "L:Z"
+        },
+        "newName": "flButtonValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "M:I"
+        },
+        "newName": "scrollPresetValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "N:Z"
+        },
+        "newName": "snapBandValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "O:Z"
+        },
+        "newName": "punchOnValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "P:Z"
+        },
+        "newName": "selectUser_bool"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "Q:Z"
+        },
+        "newName": "startupOnValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "R:Z"
+        },
+        "newName": "bassModeSwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "S:I"
+        },
+        "newName": "selectIdValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "T:I"
+        },
+        "newName": "selectAeqValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "U:Z"
+        },
+        "newName": "importAeqFqValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "V:Z"
+        },
+        "newName": "eqEmpowerActive"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "W:Z"
+        },
+        "newName": "eq5SwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "X:Z"
+        },
+        "newName": "showAeqValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "Y:Ljava/lang/String;"
+        },
+        "newName": "headphoneModelValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "Z:Z"
+        },
+        "newName": "fromQeqModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "a0:I"
+        },
+        "newName": "selectColorValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "b0:I"
+        },
+        "newName": "mainColorValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "c0:I"
+        },
+        "newName": "secondColorValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "d0:Z"
+        },
+        "newName": "empowerValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "d:Lf3/b;"
+        },
+        "newName": "prefManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "e0:I"
+        },
+        "newName": "audioSessionValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "e:Landroidx/lifecycle/s;"
+        },
+        "newName": "liveUpdateWatcher"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "f0:Z"
+        },
+        "newName": "languageAppValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "f:Lm3/a;"
+        },
+        "newName": "databaseProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "g0:Z"
+        },
+        "newName": "dsfxModeValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "g:Landroidx/lifecycle/LiveData;"
+        },
+        "newName": "userPresets"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "h:Landroidx/lifecycle/LiveData;"
+        },
+        "newName": "headphonePresets"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "i:Ljava/lang/Integer;"
+        },
+        "newName": "virSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "j:Z"
+        },
+        "newName": "isPurchacedValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "k:I"
+        },
+        "newName": "volEffectValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "l:I"
+        },
+        "newName": "selectTabValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "m:[F"
+        },
+        "newName": "sliderBands"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "n:[I"
+        },
+        "newName": "bandGain"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "o:Z"
+        },
+        "newName": "flWindowsValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "p:Ljava/lang/Integer;"
+        },
+        "newName": "bbSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "q:Ljava/lang/Float;"
+        },
+        "newName": "loudSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "r:I"
+        },
+        "newName": "spinnerPos"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "s:Z"
+        },
+        "newName": "dsfxSwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "t:Ljava/lang/Float;"
+        },
+        "newName": "ampSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "u:Ljava/lang/Integer;"
+        },
+        "newName": "xTriblSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "v:Ljava/lang/Integer;"
+        },
+        "newName": "powerBassSlider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "w:Ljava/lang/Integer;"
+        },
+        "newName": "xBassSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "x:Ljava/lang/Integer;"
+        },
+        "newName": "midSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "y:Ljava/lang/Float;"
+        },
+        "newName": "outGainSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.a",
+          "shortId": "z:Ljava/lang/Float;"
+        },
+        "newName": "channelLeftValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.b",
+          "shortId": "a:Landroid/content/SharedPreferences;"
+        },
+        "newName": "sharedPrefs"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "f3.b",
+          "shortId": "b:Lf3/b;"
+        },
+        "newName": "StaticInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "h1.a",
+          "shortId": "l:Landroid/database/sqlite/SQLiteDatabase;"
+        },
+        "newName": "sqliteDbHandle"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "h1.e",
+          "shortId": "m:Landroid/database/sqlite/SQLiteStatement;"
+        },
+        "newName": "sqliteStatementHandle"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "A:Ljava/lang/Boolean;"
+        },
+        "newName": "channelSwitch"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "B:Ljava/lang/Float;"
+        },
+        "newName": "gainLeft"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "C:Ljava/lang/Float;"
+        },
+        "newName": "gainRight"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "D:Ljava/lang/String;"
+        },
+        "newName": "headPhone"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "a:I"
+        },
+        "newName": "presetId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "presetName"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "c:I"
+        },
+        "newName": "virSlider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "d:I"
+        },
+        "newName": "bbSlider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "e:F"
+        },
+        "newName": "loudSlider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "f:[F"
+        },
+        "newName": "slider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "g:I"
+        },
+        "newName": "spinnerPos"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "h:Ljava/lang/Boolean;"
+        },
+        "newName": "virSwitch"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "i:Ljava/lang/Boolean;"
+        },
+        "newName": "bbSwitch"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "j:Ljava/lang/Boolean;"
+        },
+        "newName": "loudSwitch"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "k:Ljava/lang/Boolean;"
+        },
+        "newName": "eqSwitch"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "l:Ljava/lang/Boolean;"
+        },
+        "newName": "isCustomSelected"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "m:I"
+        },
+        "newName": "scrollPreset"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "n:Ljava/lang/Boolean;"
+        },
+        "newName": "snapBand"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "o:Ljava/lang/Boolean;"
+        },
+        "newName": "selectPunch"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "p:Ljava/lang/Boolean;"
+        },
+        "newName": "bassMode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "q:Ljava/lang/Boolean;"
+        },
+        "newName": "selectUser"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "r:Ljava/lang/Boolean;"
+        },
+        "newName": "eqBand"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "s:Ljava/lang/String;"
+        },
+        "newName": "eqPreset"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "t:Ljava/lang/Boolean;"
+        },
+        "newName": "eq5Switch"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "u:Ljava/lang/Boolean;"
+        },
+        "newName": "dsfxSW"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "v:Ljava/lang/Float;"
+        },
+        "newName": "dsfxVol"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "w:I"
+        },
+        "newName": "powerBass"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "x:I"
+        },
+        "newName": "xBass"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "y:I"
+        },
+        "newName": "trebleSlider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "l3.a",
+          "shortId": "z:I"
+        },
+        "newName": "midSlider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "m3.a",
+          "shortId": "a:Lk3/d;"
+        },
+        "newName": "databaseInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "m3.a",
+          "shortId": "b:Landroidx/lifecycle/LiveData;"
+        },
+        "newName": "customPresets"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "m3.a",
+          "shortId": "c:Landroidx/lifecycle/LiveData;"
+        },
+        "newName": "headphonePresets"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "o2.h",
+          "shortId": "l:Lo2/h;"
+        },
+        "newName": "StaticInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "o2.i",
+          "shortId": "l:Lo2/i;"
+        },
+        "newName": "StaticInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "o2.j",
+          "shortId": "l:Lo2/j;"
+        },
+        "newName": "StaticInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "oa.o",
+          "shortId": "l:Z"
+        },
+        "newName": "isSubscribed"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.c",
+          "shortId": "a:[I"
+        },
+        "newName": "eqBands"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.c",
+          "shortId": "b:I"
+        },
+        "newName": "bandCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.c",
+          "shortId": "c:Z"
+        },
+        "newName": "mbcBandsEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.c",
+          "shortId": "d:Lf3/a;"
+        },
+        "newName": "eqViewModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.c",
+          "shortId": "e:Landroid/media/audiofx/DynamicsProcessing;"
+        },
+        "newName": "dynamicProcessing"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.c",
+          "shortId": "f:Landroid/media/audiofx/DynamicsProcessing$Eq;"
+        },
+        "newName": "eq"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.c",
+          "shortId": "g:[I"
+        },
+        "newName": "gainBands"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.c",
+          "shortId": "h:Landroid/media/audiofx/DynamicsProcessing$Mbc;"
+        },
+        "newName": "mbc"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.c",
+          "shortId": "i:Landroid/media/audiofx/DynamicsProcessing$Limiter;"
+        },
+        "newName": "limiter"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.c",
+          "shortId": "j:Landroid/media/audiofx/DynamicsProcessing$MbcBand;"
+        },
+        "newName": "mbcBand"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.c",
+          "shortId": "k:F"
+        },
+        "newName": "currentOutputGain"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.c",
+          "shortId": "l:I"
+        },
+        "newName": "audioSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.e",
+          "shortId": "a:I"
+        },
+        "newName": "audioSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.e",
+          "shortId": "c:Landroid/media/audiofx/DynamicsProcessing;"
+        },
+        "newName": "dynamicsProcessing"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.e",
+          "shortId": "d:Landroid/media/audiofx/DynamicsProcessing$Eq;"
+        },
+        "newName": "dynamicsEq"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.e",
+          "shortId": "j:[F"
+        },
+        "newName": "bands"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.e",
+          "shortId": "k:Landroid/media/audiofx/DynamicsProcessing$Mbc;"
+        },
+        "newName": "dynamicsMbc"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.e",
+          "shortId": "l:Landroid/media/audiofx/DynamicsProcessing$Limiter;"
+        },
+        "newName": "dynamicsLimiter"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.e",
+          "shortId": "m:Landroid/media/audiofx/DynamicsProcessing$MbcBand;"
+        },
+        "newName": "dynamicsMbcBand"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.e$b",
+          "shortId": "l:Lf3/a;"
+        },
+        "newName": "eqvm"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.f",
+          "shortId": "l:I"
+        },
+        "newName": "bandIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.h",
+          "shortId": "a:I"
+        },
+        "newName": "audioSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.h",
+          "shortId": "b:Landroid/media/audiofx/Equalizer;"
+        },
+        "newName": "equalizer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.h",
+          "shortId": "c:Landroid/media/audiofx/Virtualizer;"
+        },
+        "newName": "virtualizer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.h",
+          "shortId": "d:Landroid/media/audiofx/BassBoost;"
+        },
+        "newName": "bassBoost"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.j$b",
+          "shortId": "l:Lf3/a;"
+        },
+        "newName": "eqvm"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.l",
+          "shortId": "a:Landroid/media/audiofx/LoudnessEnhancer;"
+        },
+        "newName": "loudnessEnhancer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p3.l",
+          "shortId": "b:I"
+        },
+        "newName": "audioSourceId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "q3.o",
+          "shortId": "h:Lcom/google/android/material/slider/Slider;"
+        },
+        "newName": "xbassslider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "r.g",
+          "shortId": "a:[I"
+        },
+        "newName": "randomSourceArray"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "r2.a",
+          "shortId": "a:I"
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "r2.a",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "model"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "r2.a",
+          "shortId": "c:[F"
+        },
+        "newName": "LIKELY_bandFreqs"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "r2.a",
+          "shortId": "d:[I"
+        },
+        "newName": "bandGains"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "r2.a",
+          "shortId": "e:J"
+        },
+        "newName": "LIKELY_creationEpoch"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "r2.a",
+          "shortId": "f:Z"
+        },
+        "newName": "LIKELY_enabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "v3.f0",
+          "shortId": "y0:Ljava/util/List;"
+        },
+        "newName": "headPhones"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "v3.j0",
+          "shortId": "z0:Lf3/a;"
+        },
+        "newName": "eqVm"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "v3.o",
+          "shortId": "w0:Lq3/o;"
+        },
+        "newName": "m_sliderControlModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "x3.m0",
+          "shortId": "o0:Lf3/a;"
+        },
+        "newName": "eqVm"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "b(I)I"
+        },
+        "newName": "getVisability"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "c(Landroid/view/View;)I"
+        },
+        "newName": "getViewAlpha"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "d(I)Ljava/lang/String;"
+        },
+        "newName": "checkIvKeyType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "g(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "concatStrings"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "concatStrings"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "i(Ljava/lang/StringBuilder;Ljava/lang/String;C)Ljava/lang/String;"
+        },
+        "newName": "appendStringChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "j(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        "newName": "stringAsStringbuilder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "k(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        "newName": "stringAsStringbuilderAppend"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;"
+        },
+        "newName": "stringAsStringBuilderAppend"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "m()Ljava/util/Iterator;"
+        },
+        "newName": "getIterator"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "n(Lcom/equalizer/lite/ui/activity/MainActivity;)Ljava/util/Iterator;"
+        },
+        "newName": "getActivityIterator"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "o(Landroid/content/SharedPreferences;Ljava/lang/String;Z)V"
+        },
+        "newName": "setKeyBoolean"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "p(I)Ljava/lang/String;"
+        },
+        "newName": "mapIntToVisability"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "q(I)Ljava/lang/String;"
+        },
+        "newName": "checkAes256_GCM"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "r(I)Ljava/lang/String;"
+        },
+        "newName": "mapResourceState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "s(I)Ljava/lang/String;"
+        },
+        "newName": "mapPositionalState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ab.j",
+          "shortId": "t(I)Ljava/lang/String;"
+        },
+        "newName": "mapConfigError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "androidx.fragment.app.n",
+          "shortId": "V()Landroidx/fragment/app/t;"
+        },
+        "newName": "requireActivity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "androidx.fragment.app.t",
+          "shortId": "dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "mCreated"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "androidx.fragment.app.t",
+          "shortId": "r()Landroidx/fragment/app/c0;"
+        },
+        "newName": "supportFragmentManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "androidx.lifecycle.LiveData",
+          "shortId": "a(Ljava/lang/String;)V"
+        },
+        "newName": "throwIfBackgroundThread"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "androidx.lifecycle.LiveData",
+          "shortId": "d(Landroidx/lifecycle/n;Landroidx/lifecycle/t;)V"
+        },
+        "newName": "observe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "androidx.lifecycle.LiveData",
+          "shortId": "e(Landroidx/fragment/app/m$d;)V"
+        },
+        "newName": "observeForever"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "androidx.lifecycle.LiveData",
+          "shortId": "i(Landroidx/lifecycle/n;)V"
+        },
+        "newName": "removeObservers"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "androidx.lifecycle.LiveData",
+          "shortId": "j(Ljava/lang/Object;)V"
+        },
+        "newName": "setValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b1.s",
+          "shortId": "d()V"
+        },
+        "newName": "LIKELY_disposeDatabase"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.equalizer.lite.App$a",
+          "shortId": "a()Lcom/equalizer/lite/App;"
+        },
+        "newName": "getAppInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.equalizer.lite.App$a",
+          "shortId": "b()Z"
+        },
+        "newName": "fetchAndVerifyProStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.equalizer.lite.component.profile.database.AppDatabase$a",
+          "shortId": "a(Landroid/content/Context;)Lcom/equalizer/lite/component/profile/database/AppDatabase;"
+        },
+        "newName": "createAppDatabase"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.equalizer.lite.component.profile.database.AppDatabase$a",
+          "shortId": "b()V"
+        },
+        "newName": "LIKELY_disposeDatabase"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.equalizer.lite.receiver.AudioSessionReceiver",
+          "shortId": "onReceive(Landroid/content/Context;Landroid/content/Intent;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131078
+        },
+        "newName": "modelEq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.equalizer.lite.service.ForegroundService",
+          "shortId": "a()V"
+        },
+        "newName": "createNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.equalizer.lite.ui.activity.Splash",
+          "shortId": "onCreate(Landroid/os/Bundle;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720898
+        },
+        "newName": "binding"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.google.firebase.installations.FirebaseInstallationsRegistrar",
+          "shortId": "a(Lz7/s;)Lv8/c;"
+        },
+        "newName": "getComponents"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.google.firebase.installations.FirebaseInstallationsRegistrar",
+          "shortId": "lambda$getComponents$0(Lz7/c;)Lv8/c;"
+        },
+        "newName": "getAwaitableObject"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.revenuecat.purchases.PurchasesConfiguration$Builder",
+          "shortId": "\u003cinit\u003e(Landroid/content/Context;Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "apiKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "e.t",
+          "shortId": "c(JLna/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "action"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.a",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;Lf1/b;)Lf1/a;"
+        },
+        "newName": "getConfiguredUserPrefs"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.a",
+          "shortId": "b(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "EncryptKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.a",
+          "shortId": "d(Ljava/lang/String;)Z"
+        },
+        "newName": "equalsKeyOrValueKeyset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.a$a",
+          "shortId": "b()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "prefsEditor_copyWriter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.a$a",
+          "shortId": "b()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131073
+        },
+        "newName": "this_copyWriter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.a$a",
+          "shortId": "b()V"
+        },
+        "newName": "updateUserPrefs"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.a$a",
+          "shortId": "c(Ljava/lang/String;[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "key"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.a$a",
+          "shortId": "c(Ljava/lang/String;[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262148
+        },
+        "newName": "encryptKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.a$a",
+          "shortId": "c(Ljava/lang/String;[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.a$a",
+          "shortId": "c(Ljava/lang/String;[B)V"
+        },
+        "newName": "setKeyData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.b",
+          "shortId": "toString()Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "keystore_containsAlias"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.b$a",
+          "shortId": "a()Lf1/b;"
+        },
+        "newName": "build"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f1.b$a",
+          "shortId": "b()V"
+        },
+        "newName": "verifyKeyScheme"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "\u003cinit\u003e(Landroid/app/Application;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "liveUpdateWatcher"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "A(Z)V"
+        },
+        "newName": "setSelectUser"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "B(IF)V"
+        },
+        "newName": "setBandFreqFromIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "C(Z)V"
+        },
+        "newName": "setSnapBand"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "D(I)V"
+        },
+        "newName": "setSpinnerPos"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "E(Z)V"
+        },
+        "newName": "setVirSwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "F(I)V"
+        },
+        "newName": "setXBassSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "G(I)V"
+        },
+        "newName": "setxTribleSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "c()I"
+        },
+        "newName": "getBbSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "d(I)F"
+        },
+        "newName": "movePrefBandValuetoSlider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "e()F"
+        },
+        "newName": "getChannelLeftValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "f()F"
+        },
+        "newName": "getLoudSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "g()I"
+        },
+        "newName": "getMidSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "h()F"
+        },
+        "newName": "getOutGainSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "i()I"
+        },
+        "newName": "getPowerBassSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "j()I"
+        },
+        "newName": "getVirSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "k()I"
+        },
+        "newName": "getXBassSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "l()I"
+        },
+        "newName": "getXTriblSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "m(Ll3/a;)V"
+        },
+        "newName": "changePreset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "n(Z)V"
+        },
+        "newName": "setChannelSwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "o(Z)V"
+        },
+        "newName": "setDsfxSwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "p(Z)V"
+        },
+        "newName": "setEqBandNumValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "q(Z)V"
+        },
+        "newName": "setEq5SwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "r(Z)V"
+        },
+        "newName": "setEqSwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "s(II)V"
+        },
+        "newName": "setBandFreqFromIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "t(Z)V"
+        },
+        "newName": "setFromAeqValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "u(Z)V"
+        },
+        "newName": "setLoudSwitchValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "v(I)V"
+        },
+        "newName": "setMidSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "w(F)V"
+        },
+        "newName": "setOutGainSliderValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "x(I)V"
+        },
+        "newName": "setPowerBassValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "y(I)V"
+        },
+        "newName": "setSelectAeqValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.a",
+          "shortId": "z(Z)V"
+        },
+        "newName": "setPunchOnValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.b",
+          "shortId": "a(I)F"
+        },
+        "newName": "getFloatBandValueFromIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f3.b",
+          "shortId": "b(I)I"
+        },
+        "newName": "getBandValueFromIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "h1.a",
+          "shortId": "C()Z"
+        },
+        "newName": "getDbWriteAheadEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "h1.a",
+          "shortId": "G()V"
+        },
+        "newName": "forceDbTransactionSuccess"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "h1.a",
+          "shortId": "J()V"
+        },
+        "newName": "beginDbTransaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "h1.a",
+          "shortId": "b()V"
+        },
+        "newName": "endDbTransaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "h1.a",
+          "shortId": "c()V"
+        },
+        "newName": "beginDbTransaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "h1.a",
+          "shortId": "g()Ljava/util/List;"
+        },
+        "newName": "getAttachedDbs"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "h1.a",
+          "shortId": "h(Ljava/lang/String;)V"
+        },
+        "newName": "executeRawSql"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "h1.a",
+          "shortId": "o(Ljava/lang/String;)Lg1/e;"
+        },
+        "newName": "execCompiledSql"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "h1.a",
+          "shortId": "t()Ljava/lang/String;"
+        },
+        "newName": "getDbPath"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "h1.a",
+          "shortId": "u()Z"
+        },
+        "newName": "dbInTransaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "h1.e",
+          "shortId": "P()J"
+        },
+        "newName": "execInsert"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "h1.e",
+          "shortId": "n()I"
+        },
+        "newName": "execUpdateDelete"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "l3.a",
+          "shortId": "\u003cinit\u003e(ILjava/lang/String;IIF[FILjava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;ILjava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Float;IIIILjava/lang/Boolean;Ljava/lang/Float;Ljava/lang/Float;Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "presetName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "n9.b",
+          "shortId": "a(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "auidioSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "n9.b",
+          "shortId": "a(I)V"
+        },
+        "newName": "initEmpowerEq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "n9.b",
+          "shortId": "a(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327686
+        },
+        "newName": "virt2_strengthLevel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "n9.b",
+          "shortId": "a(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327688
+        },
+        "newName": "virt_strengthLevel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "o2.a",
+          "shortId": "uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "_eqvm"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oa.j",
+          "shortId": "a(Ljava/lang/Object;Ljava/lang/Object;)Z"
+        },
+        "newName": "areNotNullOrAreEqual"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oa.j",
+          "shortId": "b(Ljava/lang/Object;)V"
+        },
+        "newName": "throwIfNull"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oa.j",
+          "shortId": "c(Ljava/lang/Object;Ljava/lang/String;)V"
+        },
+        "newName": "throwIfNull"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oa.j",
+          "shortId": "d(Ljava/lang/Object;Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "objectName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oa.j",
+          "shortId": "d(Ljava/lang/Object;Ljava/lang/String;)V"
+        },
+        "newName": "throwIfNullWithName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oa.j",
+          "shortId": "e(Ljava/lang/Object;Ljava/lang/String;)V"
+        },
+        "newName": "throwIfParameterIsNull"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oa.j",
+          "shortId": "f(Ljava/lang/String;Ljava/lang/RuntimeException;)V"
+        },
+        "newName": "setExceptionTrace"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oa.j",
+          "shortId": "g(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "objectStringConcat"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oa.j",
+          "shortId": "h(Ljava/lang/String;)V"
+        },
+        "newName": "throwServiceInitException"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oa.k",
+          "shortId": "\u003cinit\u003e(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "invokeableArgCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oa.s",
+          "shortId": "a(Loa/f;)Ljava/lang/String;"
+        },
+        "newName": "renderLambdaToString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.c",
+          "shortId": "a()V"
+        },
+        "newName": "configureBands"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.c",
+          "shortId": "b()V"
+        },
+        "newName": "defineDefaultGainValues"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.c",
+          "shortId": "c()V"
+        },
+        "newName": "configureDynamicsProcessingLowBands"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.c",
+          "shortId": "d(II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "bandIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.c",
+          "shortId": "d(II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "bandValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.c",
+          "shortId": "d(II)V"
+        },
+        "newName": "setFloatBandGain"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.c",
+          "shortId": "e(Z)V"
+        },
+        "newName": "initDynamicsProcessing"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.c",
+          "shortId": "e(Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1245184
+        },
+        "newName": "initWithDsfx"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.c",
+          "shortId": "f(II)V"
+        },
+        "newName": "setIntBandGain"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.c",
+          "shortId": "g(F)V"
+        },
+        "newName": "limitAllChannels"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.c",
+          "shortId": "h(F)V"
+        },
+        "newName": "setAllChannelsGain"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.e",
+          "shortId": "b(Lf3/a;)V"
+        },
+        "newName": "DEAD_CODE_calculateBands"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.e",
+          "shortId": "d(Z)V"
+        },
+        "newName": "getBassMode1"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.e",
+          "shortId": "e(IF)V"
+        },
+        "newName": "setBandGainPost"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.e",
+          "shortId": "f(II)V"
+        },
+        "newName": "setBandGain"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.e",
+          "shortId": "g(F)V"
+        },
+        "newName": "getBassMode_band0"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.e",
+          "shortId": "g(F)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "l_bands"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.e",
+          "shortId": "h(F)V"
+        },
+        "newName": "getBassMode_band1"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.e",
+          "shortId": "l()V"
+        },
+        "newName": "initDynamicsProcessing"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.e",
+          "shortId": "n(ZLf3/a;)V"
+        },
+        "newName": "setBandGainMBC"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.e",
+          "shortId": "o(II)V"
+        },
+        "newName": "setBandGain"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.h",
+          "shortId": "\u003cinit\u003e(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "audioSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.h",
+          "shortId": "a()V"
+        },
+        "newName": "eqSetEnabledFalse_postDelayed"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.h",
+          "shortId": "b(Z)V"
+        },
+        "newName": "setEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.h",
+          "shortId": "c()V"
+        },
+        "newName": "initializeBandLevels"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.j",
+          "shortId": "a(Lf3/a;)V"
+        },
+        "newName": "applyDsfxSettings"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.j",
+          "shortId": "b(ILf3/a;)V"
+        },
+        "newName": "initEqVm"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.l",
+          "shortId": "\u003cinit\u003e(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "audioSourceId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.l",
+          "shortId": "a(Z)V"
+        },
+        "newName": "setEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.l",
+          "shortId": "b()V"
+        },
+        "newName": "disable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p3.l",
+          "shortId": "c(I)V"
+        },
+        "newName": "setTargetGain"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "q2.d",
+          "shortId": "a(Lfa/d;)Ljava/io/Serializable;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262152
+        },
+        "newName": "freq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "q2.d",
+          "shortId": "a(Lfa/d;)Ljava/io/Serializable;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524292
+        },
+        "newName": "eqSlider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "q2.d",
+          "shortId": "a(Lfa/d;)Ljava/io/Serializable;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "modelName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "q3.o",
+          "shortId": "\u003cinit\u003e(Landroidx/constraintlayout/widget/ConstraintLayout;Landroid/widget/ImageView;Landroid/widget/ImageView;Landroid/widget/ImageView;Lcom/google/android/material/slider/Slider;Lcom/google/android/material/slider/Slider;Lcom/google/android/material/slider/Slider;Lcom/google/android/material/slider/Slider;Lcom/google/android/material/slider/Slider;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "xbassSlider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r.g",
+          "shortId": "a(II)Z"
+        },
+        "newName": "ifAIsNotZeroReturn__A_Equals_B__ElseNull"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r.g",
+          "shortId": "b(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "appendStringsToStringBuilder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r.g",
+          "shortId": "c(I)I"
+        },
+        "newName": "ifAIsNotZeroReturn__A_Minus_One__ElseNull"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r.g",
+          "shortId": "d(I)[I"
+        },
+        "newName": "getFirstNIterativeNumbers"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r2.a",
+          "shortId": "\u003cinit\u003e(ILjava/lang/String;[F[IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "v3.d0",
+          "shortId": "accept(Ljava/lang/Object;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196651
+        },
+        "newName": "headphones"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "v3.f0",
+          "shortId": "a(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "headphones"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "v3.o",
+          "shortId": "D(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327691
+        },
+        "newName": "xBassSlider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "v3.o",
+          "shortId": "D(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1703937
+        },
+        "newName": "xbassSlider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "v7.a",
+          "shortId": "y(Landroid/view/View;I)Landroid/view/View;"
+        },
+        "newName": "getViewById"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "w6.s0",
+          "shortId": "s(Ljava/lang/String;)V"
+        },
+        "newName": "logInformation"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "w6.s0",
+          "shortId": "t(Landroid/content/Context;)V"
+        },
+        "newName": "setApiContext"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "x3.m",
+          "shortId": "onCheckedChanged(Landroid/widget/CompoundButton;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "enableDsfx"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "x3.w0",
+          "shortId": "D(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        },
+        "newName": "inflate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "x3.w0",
+          "shortId": "D(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131074
+        },
+        "newName": "missingItemId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "x3.w0",
+          "shortId": "D(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1572865
+        },
+        "newName": "switch_eqband"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "x3.w0",
+          "shortId": "D(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1638401
+        },
+        "newName": "switch_eqband"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.equalizer.lite.App",
+      "subPath": "java",
+      "caret": 5076,
+      "view": {
+        "x": 0,
+        "y": 1769
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    }
+  ],
+  "cacheDir": "io.audiosmaxs.bassboostermusic.apk.jadx.cache",
+  "enableLiveReload": false,
+  "searchHistory": [
+    "switch_floating_button",
+    "switch_eqband",
+    "2131362466",
+    "assboostermusic",
+    "container",
+    "Dynamic",
+    "onbind",
+    "LoudnessEnhancer",
+    "Equalizer",
+    "BassBoost",
+    "eq lite sessionid",
+    "equalizer",
+    "xbass",
+    "onCreate",
+    "EQ lite sessionId",
+    "ATESwitch",
+    "Aplikasi ini diinstal dari luar Google Play Store"
+  ],
+  "pluginOptions": {}
+}
