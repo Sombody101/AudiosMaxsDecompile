@@ -1,0 +1,391 @@
+--------- beginning of main
+05-14 23:21:05.206 30167 30167 I assboostermusic: Using CollectorTypeCMC GC.
+05-14 23:21:05.209 30167 30167 E assboostermusic: Not starting debugger since process cannot load the jdwp agent.
+05-14 23:21:05.212 30167 30167 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-14 23:21:05.218 30167 30167 D ActivityThread: setConscryptValidator
+05-14 23:21:05.218 30167 30167 D ActivityThread: setConscryptValidator - put
+05-14 23:21:05.225 30167 30167 D nativeloader: Load libstats_jni.so using APEX ns com_android_os_statsd for caller /apex/com.android.os.statsd/javalib/framework-statsd.jar: ok
+05-14 23:21:05.236 30167 30167 D nativeloader: Configuring clns-7 for other apk /data/app/~~RUOrT_q8bLp34jMDxgomXw==/io.audiosmaxs.bassboostermusic-Uj6OYjhZ-5aoZxvjg4bU1Q==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~RUOrT_q8bLp34jMDxgomXw==/io.audiosmaxs.bassboostermusic-Uj6OYjhZ-5aoZxvjg4bU1Q==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/io.audiosmaxs.bassboostermusic
+05-14 23:21:05.242 30167 30167 V GraphicsEnvironment: Currently set values for:
+05-14 23:21:05.242 30167 30167 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+05-14 23:21:05.242 30167 30167 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+05-14 23:21:05.242 30167 30167 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+05-14 23:21:05.242 30167 30167 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+05-14 23:21:05.247 30167 30167 D CompatChangeReporter: Compat change id reported: 183155436; UID 10425; state: ENABLED
+05-14 23:21:05.247 30167 30167 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+05-14 23:21:05.248 30167 30167 I FirebaseCrashlytics: Initializing Firebase Crashlytics 18.3.2 for io.audiosmaxs.bassboostermusic
+05-14 23:21:05.252 30167 30183 W assboostermusic: ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[base.apk*3864036239]{PCL[/system/framework/org.apache.http.legacy.jar*3637333363]#PCL[/system/framework/com.android.media.remotedisplay.jar*2042759013]#PCL[/system/framework/com.android.location.provider.jar*3414091812]#PCL[/system/system_ext/framework/org.carconnectivity.android.digitalkey.rangingintent.jar*560278203]#PCL[/system/system_ext/framework/org.carconnectivity.android.digitalkey.secureelement.jar*3277496667]#PCL[/system_ext/framework/org.carconnectivity.android.digitalkey.timesync.jar*1887653037]#PCL[/system_ext/framework/androidx.window.extensions.jar*2245661816]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3240773605]} | DLC[];PCL[])
+05-14 23:21:05.253 30167 30183 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:86 and remote module com.google.android.gms.measurement.dynamite:147
+05-14 23:21:05.253 30167 30183 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 147
+05-14 23:21:05.253 30167 30183 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+05-14 23:21:05.256 30167 30186 E FirebaseCrashlytics: Settings request failed.
+05-14 23:21:05.256 30167 30183 W System  : ClassLoader referenced unknown path: 
+05-14 23:21:05.256 30167 30167 I FirebaseInitProvider: FirebaseApp initialization successful
+05-14 23:21:05.256 30167 30183 D nativeloader: Configuring clns-8 for other apk . target_sdk_version=36, uses_libraries=, library_path=/data/app/~~83X5jqlzqIcSeLJGuLQEjQ==/com.google.android.gms-rPLmvn8E3_s3aanMigpchw==/lib/arm64:/data/app/~~83X5jqlzqIcSeLJGuLQEjQ==/com.google.android.gms-rPLmvn8E3_s3aanMigpchw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+05-14 23:21:05.260 30167 30183 W assboostermusic: ClassLoaderContext classpath element checksum mismatch. expected=3864036239, found=2357744058 (DLC[];PCL[base.apk*3864036239]{PCL[/system/framework/org.apache.http.legacy.jar*3637333363]#PCL[/system/framework/com.android.media.remotedisplay.jar*2042759013]#PCL[/system/framework/com.android.location.provider.jar*3414091812]#PCL[/system/system_ext/framework/org.carconnectivity.android.digitalkey.rangingintent.jar*560278203]#PCL[/system/system_ext/framework/org.carconnectivity.android.digitalkey.secureelement.jar*3277496667]#PCL[/system_ext/framework/org.carconnectivity.android.digitalkey.timesync.jar*1887653037]#PCL[/system_ext/framework/androidx.window.extensions.jar*2245661816]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3240773605]} | DLC[];PCL[/data/app/~~RUOrT_q8bLp34jMDxgomXw==/io.audiosmaxs.bassboostermusic-Uj6OYjhZ-5aoZxvjg4bU1Q==/base.apk*2357744058])
+05-14 23:21:05.273 30167 30200 E assboostermusic: No package ID 6d found for resource ID 0x6d0b000f.
+05-14 23:21:05.273 30167 30200 I FA      : App measurement initialized, version: 125000
+05-14 23:21:05.273 30167 30200 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+05-14 23:21:05.273 30167 30200 I FA      : To enable faster debug mode event logging run:
+05-14 23:21:05.273 30167 30200 I FA      :   adb shell setprop debug.firebase.analytics.app io.audiosmaxs.bassboostermusic
+05-14 23:21:05.282 30167 30200 I FA      : Tag Manager is not found and thus will not be used
+05-14 23:21:05.346 30167 30167 W LoudnessEnhancer: WARNING: attaching a LoudnessEnhancer to global output mix is deprecated!
+05-14 23:21:05.346 30167 30167 I cek ✅ : EQ lite sessionId: 0
+05-14 23:21:05.348 30167 30167 W Virtualizer: WARNING: attaching a Virtualizer to global output mix is deprecated!
+05-14 23:21:05.350 30167 30167 W Equalizer: WARNING: attaching an Equalizer to global output mix is deprecated!
+05-14 23:21:05.352 30167 30167 W BassBoost: WARNING: attaching a BassBoost to global output mix is deprecated!
+05-14 23:21:05.367 30167 30167 I cek ✅ : Aplikasi ini diinstal dari luar Google Play Store
+05-14 23:21:05.370 30167 30167 I cek ✅ : ----BootReceiver---
+--------- beginning of system
+05-14 23:21:05.389 30167 30167 D ActivityThread: io.audiosmaxs.bassboostermusic will use render engine as VK
+05-14 23:21:05.389 30167 30167 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+05-14 23:21:05.390 30167 30220 D HWUI    : CacheManager constructor. deviceInfo=(1080, 1920)
+05-14 23:21:05.394 30167 30220 E Adreno-AppProfiles: QSPM AIDL service doesn't exist
+05-14 23:21:05.394 30167 30167 D CompatChangeReporter: Compat change id reported: 210923482; UID 10425; state: ENABLED
+05-14 23:21:05.395 30167 30220 I AdrenoVK-0: ===== BEGIN DUMP OF OVERRIDDEN SETTINGS =====
+05-14 23:21:05.395 30167 30220 I AdrenoVK-0: ===== END DUMP OF OVERRIDDEN SETTINGS =====
+05-14 23:21:05.396 30167 30220 D qdgralloc: Fetching IMapper5 from QtiMapper5
+05-14 23:21:05.396 30167 30167 I DecorView: setWindowBackground: isPopOver=false color=ff121212 d=android.graphics.drawable.ColorDrawable@ae1a03b
+05-14 23:21:05.397 30167 30167 I Dialog  : mIsDeviceDefault = false, mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+05-14 23:21:05.399 30167 30167 I DecorView: setWindowBackground: isPopOver=false color=ff010102 d=android.graphics.drawable.InsetDrawable@e2ffcc1
+05-14 23:21:05.399 30167 30167 I DecorView: setWindowBackground: isPopOver=false color=ff1a1a1c d=android.graphics.drawable.GradientDrawable@6cc9854
+05-14 23:21:05.400 30167 30167 I WindowManager: WindowManagerGlobal#addView, ty=2, view=com.android.internal.policy.DecorView{1682f9 V.ED..... R.....I. 0,0-0,0}[Splash], caller=android.view.WindowManagerImpl.addView:158 android.app.Dialog.show:507 androidx.fragment.app.m.K:11 
+05-14 23:21:05.400 30167 30167 I ViewRootImpl: dVRR is disabled
+05-14 23:21:05.400 30167 30167 D HardwareRenderer: onDisplayChanged. displayId=0 current wxh=1080x2340 mLargest wxh=0x0
+05-14 23:21:05.401 30167 30167 D HardwareRenderer: Set largestWidth and largestHeight as logical resolution. (1080x2340)
+05-14 23:21:05.402 30167 30220 I SnapAlloc: Graphics lib is available
+05-14 23:21:05.405 30167 30220 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: QUALCOMM build          : 7a7d1616fb, I1b2d45fd3f
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Build Date              : 12/18/24
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Shader Compiler Version : E031.47.18.13
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Local Branch            : 
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.540
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Remote Branch           : NONE
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Driver Version          : 0800.17.11
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: PFP                     : 0x01500464
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: ME                      : 0x01500012
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Application Name    : android framework
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Application Version : 0x00000000
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Engine Name         : android framework
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Engine Version      : 0x00000000
+05-14 23:21:05.407 30167 30220 I AdrenoVK-0: Api Version         : 0x00401000
+05-14 23:21:05.409 30167 30220 D HWUI    : setMaxSurfaceArea requested wxh=(1080,2340) requestedSurfaceArea(2527200) mMaxSurfaceArea(2073600)
+05-14 23:21:05.409 30167 30220 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+05-14 23:21:05.411 30167 30167 D InputTransport: Input channel constructed: 'c465259', fd=131
+05-14 23:21:05.411 30167 30167 I InsetsController: onStateChanged: host=io.audiosmaxs.bassboostermusic/com.equalizer.lite.ui.activity.Splash, from=android.view.ViewRootImpl.setView:1996, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=45, center=Point(45, 45)}, RoundedCorner{position=TopRight, radius=45, center=Point(1035, 45)}, RoundedCorner{position=BottomRight, radius=45, center=Point(1035, 2295)}, RoundedCorner{position=BottomLeft, radius=45, center=Point(45, 2295)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {211c0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {211c0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27e00000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27e00005 mType=mandatorySystemGestures mFrame=[0,0][1080,121] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27e00006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+05-14 23:21:05.412 30167 30167 I VRI[Splash]@b13d23e: synced displayState. AttachInfo displayState=2
+05-14 23:21:05.412 30167 30167 I VRI[Splash]@b13d23e: setView = com.android.internal.policy.DecorView@1682f9 IsHRR=false TM=true
+05-14 23:21:05.413 30167 30167 I ViewRootImpl: dVRR is disabled
+05-14 23:21:05.413 30167 30220 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+05-14 23:21:05.414 30167 30167 D InputTransport: Input channel constructed: 'd7536f7', fd=138
+05-14 23:21:05.414 30167 30167 I InsetsController: onStateChanged: host=io.audiosmaxs.bassboostermusic/com.equalizer.lite.ui.activity.Splash, from=android.view.ViewRootImpl.setView:1996, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=45, center=Point(45, 45)}, RoundedCorner{position=TopRight, radius=45, center=Point(1035, 45)}, RoundedCorner{position=BottomRight, radius=45, center=Point(1035, 2295)}, RoundedCorner{position=BottomLeft, radius=45, center=Point(45, 2295)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {211c0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {211c0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27e00000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27e00005 mType=mandatorySystemGestures mFrame=[0,0][1080,121] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27e00006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+05-14 23:21:05.414 30167 30167 I VRI[Splash]@17d3ef0: synced displayState. AttachInfo displayState=2
+05-14 23:21:05.414 30167 30167 I VRI[Splash]@17d3ef0: setView = com.android.internal.policy.DecorView@b94e3fa IsHRR=false TM=true
+05-14 23:21:05.414 30167 30167 I IDS_TAG : Starting IDS observe window
+05-14 23:21:05.414 30167 30167 I IDS_TAG : Getting Shared Preference for com.equalizer.lite.App@c234be1 uid = 10425
+05-14 23:21:05.414 30167 30167 I IDS_TAG : App com.equalizer.lite.App@c234be1 has not finished training
+05-14 23:21:05.415 30167 30220 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+05-14 23:21:05.415 30167 30167 I IDS_TAG : Closing IDS observe window
+05-14 23:21:05.415 30167 30167 I IDS_TAG : Getting Shared Preference for com.equalizer.lite.App@c234be1 uid = 10425
+05-14 23:21:05.415 30167 30167 I IDS_TAG : IDS count updated to 1 for com.equalizer.lite.App@c234be1
+05-14 23:21:05.419 30167 30167 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=io.audiosmaxs.bassboostermusic/com.equalizer.lite.ui.activity.Splash
+05-14 23:21:05.419 30167 30167 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=io.audiosmaxs.bassboostermusic/com.equalizer.lite.ui.activity.Splash
+05-14 23:21:05.419 30167 30167 E assboostermusic: Unable to open libpenguin.so: dlopen failed: library "libpenguin.so" not found.
+05-14 23:21:05.419 30167 30167 I BufferQueueProducer: [](id:75d700000000,api:0,p:0,c:30167) setDequeueTimeout:2077252342
+05-14 23:21:05.419 30167 30167 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[Splash]@b13d23e mNativeObject= 0xb4000079aeb03650 sc.mNativeObject= 0xb40000799eaf8510 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3390 android.view.ViewRootImpl.relayoutWindow:11355 android.view.ViewRootImpl.performTraversals:4537 android.view.ViewRootImpl.doTraversal:3701 android.view.ViewRootImpl$TraversalRunnable.run:12533 android.view.Choreographer$CallbackRecord.run:1751 android.view.Choreographer$CallbackRecord.run:1760 android.view.Choreographer.doCallbacks:1216 android.view.Choreographer.doFrame:1142 android.view.Choreographer$FrameDisplayEventReceiver.run:1707 
+05-14 23:21:05.419 30167 30167 I BLASTBufferQueue_Java: update, w= 1188 h= 840 mName = VRI[Splash]@b13d23e mNativeObject= 0xb4000079aeb03650 sc.mNativeObject= 0xb40000799eaf8510 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:88 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3390 android.view.ViewRootImpl.relayoutWindow:11355 android.view.ViewRootImpl.performTraversals:4537 android.view.ViewRootImpl.doTraversal:3701 android.view.ViewRootImpl$TraversalRunnable.run:12533 
+05-14 23:21:05.419 30167 30167 W libc    : Access denied finding property "vendor.gpp.create_frc_extension"
+05-14 23:21:05.419 30167 30167 I VRI[Splash]@b13d23e: Relayout returned: old=(0,85,1080,2196) new=(42,816,1038,1464) relayoutAsync=false req=(996,648)0 dur=1 res=0x3 s={true 0xb400007a2eb20f80} ch=true seqId=0
+05-14 23:21:05.420 30167 30167 I VRI[Splash]@b13d23e: performConfigurationChange setNightDimText nightDimLevel=0
+05-14 23:21:05.420 30167 30167 D VRI[Splash]@b13d23e: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007a2eb20f80} hwInitialized=true
+05-14 23:21:05.420 30167 30167 D VRI[Splash]@b13d23e: reportNextDraw android.view.ViewRootImpl.performTraversals:5186 android.view.ViewRootImpl.doTraversal:3701 android.view.ViewRootImpl$TraversalRunnable.run:12533 android.view.Choreographer$CallbackRecord.run:1751 android.view.Choreographer$CallbackRecord.run:1760 
+05-14 23:21:05.420 30167 30167 D VRI[Splash]@b13d23e: Setup new sync=wmsSync-VRI[Splash]@b13d23e#0
+05-14 23:21:05.420 30167 30167 I VRI[Splash]@b13d23e: Creating new active sync group VRI[Splash]@b13d23e#1
+05-14 23:21:05.420 30167 30167 D VRI[Splash]@b13d23e: registerCallbacksForSync syncBuffer=false
+05-14 23:21:05.421 30167 30226 D VRI[Splash]@b13d23e: Received frameDrawingCallback syncResult=0 frameNum=1.
+05-14 23:21:05.421 30167 30226 I VRI[Splash]@b13d23e: mWNT: t=0xb40000792eb34b90 mBlastBufferQueue=0xb4000079aeb03650 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$11.onFrameDraw:15025 android.view.ThreadedRenderer$1.onFrameDraw:761 <bottom of call stack> 
+05-14 23:21:05.421 30167 30226 I VRI[Splash]@b13d23e: Setting up sync and frameCommitCallback
+05-14 23:21:05.421 30167 30220 I AdrenoUtils: <ReadGpuID:366>: Reading chip ID through GSL
+05-14 23:21:05.453 30167 30220 I BLASTBufferQueue: [VRI[Splash]@b13d23e#0](f:0,a:0,s:0) onFrameAvailable the first frame is available
+05-14 23:21:05.453 30167 30220 I SurfaceComposerClient: apply transaction with the first frame. layerId: 23496, bufferData(ID: 129566278418432, frameNumber: 1)
+05-14 23:21:05.454 30167 30220 I VRI[Splash]@b13d23e: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+05-14 23:21:05.454 30167 30220 D HWUI    : CFMS:: SetUp Pid : 30167    Tid : 30220
+05-14 23:21:05.454 30167 30167 D VRI[Splash]@b13d23e: reportDrawFinished seqId=0
+05-14 23:21:05.455 30167 30167 I BufferQueueProducer: [](id:75d700000001,api:0,p:0,c:30167) setDequeueTimeout:2077252342
+05-14 23:21:05.456 30167 30167 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[Splash]@17d3ef0 mNativeObject= 0xb4000079aeb0e230 sc.mNativeObject= 0xb40000799eaf85d0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3390 android.view.ViewRootImpl.relayoutWindow:11355 android.view.ViewRootImpl.performTraversals:4537 android.view.ViewRootImpl.doTraversal:3701 android.view.ViewRootImpl$TraversalRunnable.run:12533 android.view.Choreographer$CallbackRecord.run:1751 android.view.Choreographer$CallbackRecord.run:1760 android.view.Choreographer.doCallbacks:1216 android.view.Choreographer.doFrame:1142 android.view.Choreographer$FrameDisplayEventReceiver.run:1707 
+05-14 23:21:05.456 30167 30167 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[Splash]@17d3ef0 mNativeObject= 0xb4000079aeb0e230 sc.mNativeObject= 0xb40000799eaf85d0 format= -1 caller= android.graphics.BLASTBufferQueue.<init>:88 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3390 android.view.ViewRootImpl.relayoutWindow:11355 android.view.ViewRootImpl.performTraversals:4537 android.view.ViewRootImpl.doTraversal:3701 android.view.ViewRootImpl$TraversalRunnable.run:12533 
+05-14 23:21:05.456 30167 30167 W libc    : Access denied finding property "vendor.gpp.create_frc_extension"
+05-14 23:21:05.456 30167 30167 I VRI[Splash]@17d3ef0: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=0 res=0x3 s={true 0xb400007a2eb2b9d0} ch=true seqId=0
+05-14 23:21:05.456 30167 30167 I VRI[Splash]@17d3ef0: performConfigurationChange setNightDimText nightDimLevel=0
+05-14 23:21:05.456 30167 30167 D VRI[Splash]@17d3ef0: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007a2eb2b9d0} hwInitialized=true
+05-14 23:21:05.456 30167 30167 D VRI[Splash]@17d3ef0: reportNextDraw android.view.ViewRootImpl.performTraversals:5186 android.view.ViewRootImpl.doTraversal:3701 android.view.ViewRootImpl$TraversalRunnable.run:12533 android.view.Choreographer$CallbackRecord.run:1751 android.view.Choreographer$CallbackRecord.run:1760 
+05-14 23:21:05.456 30167 30167 D VRI[Splash]@17d3ef0: Setup new sync=wmsSync-VRI[Splash]@17d3ef0#2
+05-14 23:21:05.456 30167 30167 I VRI[Splash]@17d3ef0: Creating new active sync group VRI[Splash]@17d3ef0#3
+05-14 23:21:05.456 30167 30167 D VRI[Splash]@17d3ef0: registerCallbacksForSync syncBuffer=false
+05-14 23:21:05.456 30167 30227 D VRI[Splash]@17d3ef0: Received frameDrawingCallback syncResult=0 frameNum=1.
+05-14 23:21:05.457 30167 30227 I VRI[Splash]@17d3ef0: mWNT: t=0xb40000792eb41f50 mBlastBufferQueue=0xb4000079aeb0e230 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$11.onFrameDraw:15025 android.view.ThreadedRenderer$1.onFrameDraw:761 <bottom of call stack> 
+05-14 23:21:05.457 30167 30227 I VRI[Splash]@17d3ef0: Setting up sync and frameCommitCallback
+05-14 23:21:05.463 30167 30220 I BLASTBufferQueue: [VRI[Splash]@17d3ef0#1](f:0,a:0,s:0) onFrameAvailable the first frame is available
+05-14 23:21:05.464 30167 30220 I SurfaceComposerClient: apply transaction with the first frame. layerId: 23497, bufferData(ID: 129566278418436, frameNumber: 1)
+05-14 23:21:05.464 30167 30220 I VRI[Splash]@17d3ef0: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+05-14 23:21:05.464 30167 30220 D HWUI    : CFMS:: SetUp Pid : 30167    Tid : 30220
+05-14 23:21:05.464 30167 30167 D VRI[Splash]@17d3ef0: reportDrawFinished seqId=0
+05-14 23:21:05.464 30167 30220 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+05-14 23:21:05.479 30167 30167 D VRI[Splash]@b13d23e: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007a2eb20f80}
+05-14 23:21:05.479 30167 30167 D InputMethodManagerUtils: startInputInner - Id : 0
+05-14 23:21:05.479 30167 30167 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-14 23:21:05.481 30167 30247 D InputTransport: Input channel constructed: 'ClientS', fd=188
+05-14 23:21:05.495 30167 30167 I InsetsController: onStateChanged: host=io.audiosmaxs.bassboostermusic/com.equalizer.lite.ui.activity.Splash, from=android.view.ViewRootImpl.handleInsetsControlChanged:2880, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=45, center=Point(45, 45)}, RoundedCorner{position=TopRight, radius=45, center=Point(1035, 45)}, RoundedCorner{position=BottomRight, radius=45, center=Point(1035, 2295)}, RoundedCorner{position=BottomLeft, radius=45, center=Point(45, 2295)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {211c0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {211c0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27e00000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27e00005 mType=mandatorySystemGestures mFrame=[0,0][1080,121] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27e00006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+05-14 23:21:05.495 30167 30167 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=false, type=ime, host=io.audiosmaxs.bassboostermusic/com.equalizer.lite.ui.activity.Splash
+05-14 23:21:05.740 30167 30222 W System.err: java.net.UnknownHostException: Unable to resolve host "sadut.my.id": No address associated with hostname
+05-14 23:21:05.740 30167 30222 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+05-14 23:21:05.740 30167 30222 W System.err: 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+05-14 23:21:05.740 30167 30222 W System.err: 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:248)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:211)
+05-14 23:21:05.740 30167 30222 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:30)
+05-14 23:21:05.740 30167 30222 W System.err: 	at java.net.URL.openStream(URL.java:1072)
+05-14 23:21:05.740 30167 30222 W System.err: 	at o3.a.doInBackground(Unknown Source:9)
+05-14 23:21:05.740 30167 30222 W System.err: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+05-14 23:21:05.740 30167 30222 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+05-14 23:21:05.740 30167 30222 W System.err: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+05-14 23:21:05.740 30167 30222 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-14 23:21:05.740 30167 30222 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-14 23:21:05.740 30167 30222 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+05-14 23:21:05.740 30167 30222 W System.err: Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+05-14 23:21:05.740 30167 30222 W System.err: 	at libcore.io.Linux.android_getaddrinfo(Native Method)
+05-14 23:21:05.740 30167 30222 W System.err: 	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:133)
+05-14 23:21:05.740 30167 30222 W System.err: 	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:222)
+05-14 23:21:05.740 30167 30222 W System.err: 	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:133)
+05-14 23:21:05.740 30167 30222 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:135)
+05-14 23:21:05.740 30167 30222 W System.err: 	... 24 more
+05-14 23:21:06.386 30167 30252 I [Purchases] - INFO: 😻💰 Purchase history retrieved skus: [com.sigastudio.boom.remove.ads], purchaseTime: 1681995055963, purchaseToken: lafodeipfmkffeoldekbofei.AO-J1OwJpnVLlh-q8bhNXg70q0vVca1Jotze2S7GnjLw0hawaOIJFwqFT7vQGjZuyDtX_ySTlIjxCdV33gDy1c9CnTxStWkq7gGLnIlUoE9DZlt4Ahm46FA
+05-14 23:21:06.566 30167 30202 W [Purchases] - WARN: ⚠️ Unable to start a network connection due to a network configuration issue: https://api.revenuecat.com/v1/receipts
+05-14 23:21:06.567 30167 30202 E [Purchases] - ERROR: 😿‼️ PurchasesError(code=ConfigurationError, underlyingErrorMessage=Invalid Google Play package. Check your app settings in RevenueCat match Google Play., message='There is an issue with your configuration. Check the underlying error for more details.')
+05-14 23:21:06.567 30167 30202 E [Purchases] - ERROR: Error computing offline CustomerInfo. Will return original error. Creation error: PurchasesError(code=CustomerInfoError, underlyingErrorMessage=Product entitlement mapping is required for offline entitlements. Skipping offline customer info calculation., message='There was a problem related to the customer info.')
+05-14 23:21:06.568 30167 30202 E [Purchases] - ERROR: 😿‼️ Error restoring purchase: StoreTransaction(orderId=null, productIds=[com.sigastudio.boom.remove.ads], type=INAPP, purchaseTime=1681995055963, purchaseToken=lafodeipfmkffeoldekbofei.AO-J1OwJpnVLlh-q8bhNXg70q0vVca1Jotze2S7GnjLw0hawaOIJFwqFT7vQGjZuyDtX_ySTlIjxCdV33gDy1c9CnTxStWkq7gGLnIlUoE9DZlt4Ahm46FA, purchaseState=UNSPECIFIED_STATE, isAutoRenewing=null, signature=fym15hRjnOIDi2v9NogeYeXRmxWfv9C9RLj/K/9Gctk7mHD9tftFQGN5THj+C4NFFhB+fLIW/BAPRwcl+GMG12BRCk+9XCnVQyrPFoK+Hn3Gjgry+obWXOYgGVhz5MsXfxLx6rl36iSMnYYkGTM6Yhq/MtRmF7yUvd4YMdzjoHN7YJsJP85sMJx/OTKbI9ne4h5A+F5v6/7hxNHeOWFOAHMvBXSB/fe/SaFaeGWzaU4EXD9vhByuvvs91jFF0XcI16NSSqFz3Eck0zWCh8vn0/+hqoET3qN00Adow0GOVF/3AJplEBwap9LVrqyjuMlHLWs4naY4lPdx7dTIqLtmvQ==, originalJson={"productId":"com.sigastudio.boom.remove.ads","purchaseToken":"lafodeipfmkffeoldekbofei.AO-J1OwJpnVLlh-q8bhNXg70q0vVca1Jotze2S7GnjLw0hawaOIJFwqFT7vQGjZuyDtX_ySTlIjxCdV33gDy1c9CnTxStWkq7gGLnIlUoE9DZlt4Ahm46FA","purchaseTime":1681995055963,"quantity":1,"developerPayload":null}, presentedOfferingIdentifier=null, storeUserID=null, purchaseType=GOOGLE_RESTORED_PURCHASE, marketplace=null, subscriptionOptionId=null, prorationMode=null). Error: PurchasesError(code=ConfigurationError, underlyingErrorMessage=Invalid Google Play package. Check your app settings in RevenueCat match Google Play., message='There is an issue with your configuration. Check the underlying error for more details.')
+05-14 23:21:33.097 30167 30167 I VRI[Splash]@b13d23e: ViewPostIme pointer 0
+05-14 23:21:33.098 30167 30167 I VRI[Splash]@b13d23e: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[Splash]@b13d23e
+05-14 23:21:33.155 30167 30167 I VRI[Splash]@b13d23e: ViewPostIme pointer 1
+05-14 23:21:33.156 30167 30167 I WindowManager: WindowManagerGlobal#removeView, ty=2, view=com.android.internal.policy.DecorView{1682f9 V.ED..... R....... 0,0-996,648 aid=1073741824}[Splash], caller=android.view.WindowManagerGlobal.removeView:626 android.view.WindowManagerImpl.removeViewImmediate:216 android.app.Dialog.dismissDialog:804 
+05-14 23:21:33.156 30167 30167 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda15@e7d3987
+05-14 23:21:33.157 30167 30220 D HWUI    : endAllActiveAnimators on 0xb4000078ceb17d00 (AppCompatImageView) with handle 0xb4000079deb89c40
+05-14 23:21:33.157 30167 30167 I VRI[Splash]@b13d23e: dispatchDetachedFromWindow
+05-14 23:21:33.160 30167 30167 D InputTransport: Input channel destroyed: 'c465259', fd=131
+05-14 23:21:33.161 30167 30167 I InsetsController: onStateChanged: host=io.audiosmaxs.bassboostermusic/com.equalizer.lite.ui.activity.Splash, from=android.view.ViewRootImpl.handleInsetsControlChanged:2880, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=45, center=Point(45, 45)}, RoundedCorner{position=TopRight, radius=45, center=Point(1035, 45)}, RoundedCorner{position=BottomRight, radius=45, center=Point(1035, 2295)}, RoundedCorner{position=BottomLeft, radius=45, center=Point(45, 2295)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {211c0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {211c0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27e00000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27e00005 mType=mandatorySystemGestures mFrame=[0,0][1080,121] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27e00006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+05-14 23:21:33.161 30167 30167 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=io.audiosmaxs.bassboostermusic/com.equalizer.lite.ui.activity.Splash
+05-14 23:21:33.161 30167 30167 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=io.audiosmaxs.bassboostermusic/com.equalizer.lite.ui.activity.Splash
+05-14 23:21:33.161 30167 30167 I InsetsController: onStateChanged: host=io.audiosmaxs.bassboostermusic/com.equalizer.lite.ui.activity.Splash, from=android.view.ViewRootImpl.handleInsetsControlChanged:2880, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=45, center=Point(45, 45)}, RoundedCorner{position=TopRight, radius=45, center=Point(1035, 45)}, RoundedCorner{position=BottomRight, radius=45, center=Point(1035, 2295)}, RoundedCorner{position=BottomLeft, radius=45, center=Point(45, 2295)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {211c0001 mType=navigationBars mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {211c0005 mType=mandatorySystemGestures mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0006 mType=tappableElement mFrame=[0,2196][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {211c0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27e00000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27e00005 mType=mandatorySystemGestures mFrame=[0,0][1080,121] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {27e00006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+05-14 23:21:33.180 30167 30167 D VRI[Splash]@17d3ef0: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007a2eb2b9d0}
+05-14 23:21:33.180 30167 30167 D InputMethodManagerUtils: startInputInner - Id : 0
+05-14 23:21:33.180 30167 30167 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-14 23:21:33.183 30167 30247 D InputTransport: Input channel constructed: 'ClientS', fd=141
+05-14 23:21:33.194 30167 30167 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=false, type=ime, host=io.audiosmaxs.bassboostermusic/com.equalizer.lite.ui.activity.Splash
+05-14 23:21:35.862 30167 30167 I VRI[Splash]@17d3ef0: ViewPostIme pointer 0
+05-14 23:21:35.865 30167 30167 I VRI[Splash]@17d3ef0: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[Splash]@17d3ef0
+05-14 23:21:35.936 30167 30167 I VRI[Splash]@17d3ef0: ViewPostIme pointer 1
+05-14 23:21:35.943 30167 30167 I AppJumpBlockTool: identify:63045321
+05-14 23:21:35.959 30167 30167 D ActivityThread: io.audiosmaxs.bassboostermusic will use render engine as VK
+05-14 23:21:35.961 30167 30167 I ActivityThread: Schedule relaunch activity: com.equalizer.lite.ui.activity.Splash
+05-14 23:21:35.961 30167 30167 D ActivityThread: scheduleRelaunchActivity: preserveWindow=true, r=com.equalizer.lite.ui.activity.Splash@627384d, caller=android.app.Activity.recreate:7534 e.k.y:176 e.k.d:1 e.j.v:57 t3.d.onCreate:29 com.equalizer.lite.ui.activity.MainActivity.onCreate:1 android.app.Activity.performCreate:9363 android.app.Activity.performCreate:9332 
+05-14 23:21:35.962 30167 30167 I AppCompatDelegate: You should now use the AppCompatDelegate.FEATURE_SUPPORT_ACTION_BAR id when requesting this feature.
+05-14 23:21:35.967 30167 30167 I DecorView: setWindowBackground: isPopOver=false color=fff2f5fa d=android.graphics.drawable.GradientDrawable@2f5145c
+05-14 23:21:36.018 30167 30167 I cek ✅ : [x]belum langganan
+05-14 23:21:36.019 30167 30167 I BluetoothAdapter: BluetoothAdapter() : io.audiosmaxs.bassboostermusic
+05-14 23:21:36.055 30167 30167 I cek ✅ : fromAEQ bool 1 false
+05-14 23:21:36.058 30167 30167 E TransactionExecutor: Failed to execute the transaction: tId:-861178392 ClientTransaction{
+05-14 23:21:36.058 30167 30167 E TransactionExecutor: tId:-861178392   transactionItems=[
+05-14 23:21:36.058 30167 30167 E TransactionExecutor: tId:-861178392     LaunchActivityItem{activityToken=android.os.BinderProxy@7223d0b,intent=Intent { cmp=io.audiosmaxs.bassboostermusic/com.equalizer.lite.ui.activity.MainActivity },ident=181481778,info=ActivityInfo{fd34d7e com.equalizer.lite.ui.activity.MainActivity},curConfig={0.9 310mcc280mnc [en_US] ldltr sw360dp w360dp h704dp 480dpi nrml long hdr widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 85 - 1080, 2196) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.198 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},overrideConfig={0.9 310mcc280mnc [en_US] ldltr sw360dp w360dp h704dp 480dpi nrml long hdr widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 85 - 1080, 2196) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.2 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},deviceId=0,referrer=io.audiosmaxs.bassboostermusic,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,sceneTransitionInfo=null,profilerInfo=null,assistToken=android.os.BinderProxy@57b6183,shareableActivityToken=android.os.BinderProxy@b909f00,activityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2340), taskFragmentBounds=Rect(0, 0 - 1080, 2340)}}
+05-14 23:21:36.058 30167 30167 E TransactionExecutor: tId:-861178392     ResumeActivityItem{mActivityToken=android.os.BinderProxy@7223d0b,procState=-1,updateProcState=false,isForward=true,shouldSendCompatFakeFocus=false}
+05-14 23:21:36.058 30167 30167 E TransactionExecutor: tId:-861178392     Target activity: com.equalizer.lite.ui.activity.MainActivity
+05-14 23:21:36.058 30167 30167 E TransactionExecutor: tId:-861178392   ]
+05-14 23:21:36.058 30167 30167 E TransactionExecutor: tId:-861178392 }
+05-14 23:21:36.058 30167 30167 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: FATAL EXCEPTION: main
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: Process: io.audiosmaxs.bassboostermusic, PID: 30167
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: android.view.InflateException: Binary XML file line #60 in io.audiosmaxs.bassboostermusic:layout/fragment_dsfx_old: Binary XML file line #60 in io.audiosmaxs.bassboostermusic:layout/fragment_dsfx_old: Error inflating class com.equalizer.lite.ui.view.equalizerview.ATESwitch
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: Caused by: android.view.InflateException: Binary XML file line #60 in io.audiosmaxs.bassboostermusic:layout/fragment_dsfx_old: Error inflating class com.equalizer.lite.ui.view.equalizerview.ATESwitch
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: Caused by: java.lang.reflect.InvocationTargetException
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.createView(LayoutInflater.java:758)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:910)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:865)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1027)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:576)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:468)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at x3.q.D(SourceFile:10)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.n.O(SourceFile:20)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.i0.f(SourceFile:170)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.i0.k(SourceFile:147)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.b0.A(SourceFile:10)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.b0.U(Unknown Source:84)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.b0.y(SourceFile:74)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.b0.t(SourceFile:65)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.t.onStart(SourceFile:34)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at e.h.onStart(Unknown Source:0)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1707)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:9406)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:4473)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:270)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:250)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleItem(TransactionExecutor.java:222)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:107)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2880)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:257)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:342)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9579)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: Caused by: android.content.res.Resources$NotFoundException: Drawable io.audiosmaxs.bassboostermusic:drawable/abc_switch_thumb_material with resource ID #0x7f080066
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: Caused by: android.content.res.Resources$NotFoundException: File res/drawable/abc_switch_thumb_material.xml from drawable resource ID #0x7f080066
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.ResourcesImpl.loadDrawableForCookie(ResourcesImpl.java:1071)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.ResourcesImpl.loadDrawable(ResourcesImpl.java:809)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.Resources.loadDrawable(Resources.java:1050)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.Resources.getDrawableForDensity(Resources.java:1040)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.Resources.getDrawable(Resources.java:979)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.Context.getDrawable(Context.java:1001)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at b0.a$b.b(Unknown Source:0)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.appcompat.widget.x0.g(SourceFile:243)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.appcompat.widget.x0.f(Unknown Source:2)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at f.a.a(Unknown Source:4)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.appcompat.widget.i1.e(Unknown Source:19)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.appcompat.widget.c1.<init>(SourceFile:88)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.appcompat.widget.c1.<init>(Unknown Source:1)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at com.equalizer.lite.ui.view.equalizerview.ATESwitch.<init>(Unknown Source:10)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.createView(LayoutInflater.java:758)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:910)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:865)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1027)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:576)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:468)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at x3.q.D(SourceFile:10)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.n.O(SourceFile:20)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.i0.f(SourceFile:170)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.i0.k(SourceFile:147)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.b0.A(SourceFile:10)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.b0.U(Unknown Source:84)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.b0.y(SourceFile:74)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.b0.t(SourceFile:65)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.t.onStart(SourceFile:34)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at e.h.onStart(Unknown Source:0)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1707)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:9406)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:4473)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:270)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:250)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleItem(TransactionExecutor.java:222)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:107)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2880)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:257)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:342)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9579)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: Caused by: android.content.res.Resources$NotFoundException: Drawable (missing name) with resource ID #0x7f080033
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: Caused by: android.content.res.Resources$NotFoundException: Unable to find resource ID #0x7f080033
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.ResourcesImpl.getResourceName(ResourcesImpl.java:337)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.ResourcesImpl.loadDrawableForCookie(ResourcesImpl.java:978)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.ResourcesImpl.loadDrawable(ResourcesImpl.java:809)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.Resources.loadDrawable(Resources.java:1050)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.TypedArray.getDrawableForDensity(TypedArray.java:1021)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.TypedArray.getDrawable(TypedArray.java:995)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.graphics.drawable.StateListDrawable.inflateChildElements(StateListDrawable.java:182)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.graphics.drawable.StateListDrawable.inflate(StateListDrawable.java:126)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.graphics.drawable.DrawableInflater.inflateFromXmlForDensity(DrawableInflater.java:145)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.graphics.drawable.Drawable.createFromXmlInnerForDensity(Drawable.java:1421)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.graphics.drawable.Drawable.createFromXmlForDensity(Drawable.java:1382)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.ResourcesImpl.loadXmlDrawable(ResourcesImpl.java:1103)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.ResourcesImpl.loadDrawableForCookie(ResourcesImpl.java:1041)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.ResourcesImpl.loadDrawable(ResourcesImpl.java:809)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.Resources.loadDrawable(Resources.java:1050)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.Resources.getDrawableForDensity(Resources.java:1040)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.res.Resources.getDrawable(Resources.java:979)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.content.Context.getDrawable(Context.java:1001)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at b0.a$b.b(Unknown Source:0)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.appcompat.widget.x0.g(SourceFile:243)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.appcompat.widget.x0.f(Unknown Source:2)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at f.a.a(Unknown Source:4)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.appcompat.widget.i1.e(Unknown Source:19)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.appcompat.widget.c1.<init>(SourceFile:88)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.appcompat.widget.c1.<init>(Unknown Source:1)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at com.equalizer.lite.ui.view.equalizerview.ATESwitch.<init>(Unknown Source:10)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.createView(LayoutInflater.java:758)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:910)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:865)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1027)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1030)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:988)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:576)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:468)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at x3.q.D(SourceFile:10)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.n.O(SourceFile:20)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.i0.f(SourceFile:170)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.i0.k(SourceFile:147)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.b0.A(SourceFile:10)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.b0.U(Unknown Source:84)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.b0.y(SourceFile:74)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.b0.t(SourceFile:65)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at androidx.fragment.app.t.onStart(SourceFile:34)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at e.h.onStart(Unknown Source:0)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1707)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:9406)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:4473)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:270)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:250)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleItem(TransactionExecutor.java:222)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:107)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2880)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:257)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:342)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9579)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+05-14 23:21:36.059 30167 30167 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+05-14 23:21:40.060 30167 30167 E FirebaseCrashlytics: Cannot send reports. Timed out while fetching settings.
